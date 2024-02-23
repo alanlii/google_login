@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Sign-In Integration</title>
+</head>
+<body>
+
+<!-- Load Google Sign-In client library -->
+<script src="https://accounts.google.com/gsi/client?hl=en" async></script>
+
+<!-- Google Sign-In container -->
+<div id="g_id_onload"
+     data-client_id="325852213699-8r7698p49ppkd0a6puqnlk7gt74n6nm7.apps.googleusercontent.com"
+     data-context="signin"
+     data-login_uri="http://localhost:8080/login/oauth2/code/google"
+     data-auto_prompt="false">
+</div>
+
+<!-- Google Sign-In button -->
+<div class="g_id_signin"
+     data-type="standard"
+     data-shape="circle"
+     data-theme="filled_blue"
+     data-text="signin_with"
+     data-width=400
+     data-size="large"
+     data-locale="en-US"
+     data-logo_alignment="left">
+</div>
+
+</body>
+</html>

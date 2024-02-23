@@ -1,0 +1,9 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 325852213699-8r7698p49ppkd0a6puqnlk7gt74n6nm7.apps.googleusercontent.com
+            client-secret: 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
+            redirect-uri: http://localhost:8080/login/oauth2/code/google # 控制台中的回调地址
